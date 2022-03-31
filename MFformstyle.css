@@ -1,0 +1,16 @@
+h2{
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+}
+div{
+	border: 1px solid black;
+	padding: 30px, 40;
+	background-color: lightblue;
+	text-align: center;
+}
+button{
+	background-color: whitesmoke;
+	color: black;
+	border: 6px solid green;
+}
