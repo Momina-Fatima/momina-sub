@@ -13,42 +13,49 @@
 	h2{
 		background-color: peachpuff;
 	}
-	button{ border-radius: 4px;
-  background-color: lightpink;
+	button{ 
+		 position: relative;
+  background-color: #04AA6D;
   border: none;
-  color: black;
-  text-align: center;
   font-size: 28px;
+  color: #FFFFFF;
   padding: 20px;
   width: 200px;
-  transition: all 0.5s;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
   cursor: pointer;
-  margin: 5px;
 }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
   position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
   opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+  transition: all 0.8s
 }
 
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
+.button:active:after {
+  padding: 0;
+  margin: 0;
   opacity: 1;
-  right: 0;
+  transition: 0s
+}
+div{
+	border: 1px solid black;
+	padding: 30px, 40px;
+	background-color: skyblue;
+	text-align: center;
+	width: 400px;
+	padding-top: 50px;
+	padding-bottom: 40px;
 }
 	a{
 		text-decoration: none;
@@ -58,7 +65,9 @@
 <body>
    <center>
 	<h2>Log In</h2>
-		<a href="ogle.com" targgoet="_blank"><img src="C:\Users\dell i5\Desktop\Momina Fatima Web Task\img1.png" width="360" height="250"></a>
+		<a href="ogle.com" targgoet="_blank"><img src="C:\Users\dell i5\Desktop\Momina Fatima Web Task\img1.png" width="300" height="200"></a>
+		<br>
+		<br>
 	
 	
 <div>
@@ -69,7 +78,7 @@
 <input type="text" id="lname" name="lname">
 </form>
 <br>
-<button type="submit" class="button"><span>Login</span></button>
+<button type="submit" class="button">Login</button>
 </div>
 
 	</center>
