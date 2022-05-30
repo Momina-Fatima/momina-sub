@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <style>
+ 
+        /* Styling the body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+          
+        /* Styling section, giving background
+            image and dimensions */
+        section {
+            width: 100%;
+            height: 100vh;
+          /*  background:
+ url('https://media.geeksforgeeks.org/wp-content/uploads/20210408155049/gfg9.png'); */
+            background-size: cover;
+        }
+          
+        /* Styling the left floating section */
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the background of
+            left floating section */
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect 
+            of left floating section */
+        section .leftBox .content:hover {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of left
+            floating section */
+        section .leftBox .content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+          
+        /* Styling the paragraph of
+            left floating section */
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+          
+        /* Styling the three events section */
+        section .events {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            float: right;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the links of
+        the events section */
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the lists of the event section */
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+          
+        /* Styling the time class of events section */
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect
+            of events section */
+        section .events ul li:hover .time {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of time
+            class of events section */
+        section .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 60px;
+            line-height: 30px;
+        }
+          
+        /* Styling the texts of time
+        class of events section */
+        section .events ul li .time h2 span {
+            font-size: 30px;
+        }
+          
+        /* Styling the details
+        class of events section */
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+          
+        /* Styling the header of the
+        details class of events section */
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+          
+        /* Styling the lists of details
+        class of events section */
+        section .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+          
+        /* Styling the links of details
+        class of events section */
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+          
+        /* Styling the details class's hover effect */
+        section .events ul li .details a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+        }
+
+.heading{
+position:absolute;
+top:450px;
+left:100px;
+}
+    </style>
+</head>
+  
+<body>
+
+    <section>
+        <div class="leftBox">
+            <div class="content">
+                <h1>
+                    Conferance ideas 
+                </h1>
+                 
+<p>
+                   
+very great conference needs a theme. What’s the unifying message that your speakers will deliver and what’s the key takeaway for conference attendees?
+
+
+The best themes are catchy, relatable, and trigger an emotional response. You want the conference to inspire and stimulate conversation. Your theme has to enable that.
+
+
+For instance, “Stronger as a team” is probably a better theme than “Achieving improved efficiencies through increased cross-functional collaboration.”
+
+
+The theme is more than just a rallying cry for all participants; it will also guide your branding and promotion, from designing a logo to coming up with social media hashtags to printing your posters, brochures, and other collateral.
+                </p>
+ 
+            </div>
+        </div>
+  
+        <div class="events">
+            <ul>
+                <li>
+                    <div class="time">
+                        <h2>
+                            30 <br><span>May</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Info about  is the event of  the conference ?
+                        </h3>
+                         
+<p>
+                            A conference is generally understood as a meeting of several people to discuss a particular topic. It is often confused with a convention, colloquia or symposium. While a conference differs from the others in terms of size and purpose, the term can be used to cover the general concept. A convention is larger than a conference.
+                        </p>
+ 
+  
+                        <a href="#">View Details</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            31<br><span>May</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            How we organize conference?
+                        </h3>
+                         
+<p>
+                            Organising a conference is a marathon, not a sprint. So, before we jump into the nitty-gritty of how to organise a conference, pour yourself a cup of tea.What your audience wants is vital to the decision to go virtual, hybrid, or physical. A modern-day event strategy is based on choosing an event format and venue that best suits your audience. 
+                        </p>
+ 
+                        <a href="#">View Details</a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            1<br><span>june</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Best ideas about the conference ?
+                        </h3>
+                         
+<p>
+                            What your audience wants is vital to the decision to go virtual, hybrid, or physical. A modern-day event strategy is based on choosing an event format and venue that best suits your audience. 
+                        </p>
+ 
+  
+                        <a href="#">View Details</a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+  
+</html>
